@@ -10,7 +10,7 @@
   display: block;
   text-align: right;
 }
-.logo-img {
+.logo__img {
   width: 100%;
 }
 .logo .more-inf {
@@ -121,18 +121,18 @@ li > input[type="checkbox"] {
   font-size: 18px;
   width: 226px;
 }
-li >    input[type="text"] {
+li > input[type="text"] {
   width: 226px;
 }
 .delete:hover {
   color: #cf2323;
 }
-.delete-img {
+.delete__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.delete-img:hover {
+.delete__img:hover {
   transform: rotateZ(0);
 }
 
@@ -147,11 +147,11 @@ ul li input[type=text] {
   display: none;
 }
 
-.edit-mode input[type=text] {
+.incomplete-tasks__edit-mode input[type=text] {
   display: inline-block;
   width: 224px
 }
 
-.edit-mode .task {
+.incomplete-tasks__edit-mode .task {
   display: none;
 }
