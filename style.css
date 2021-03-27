@@ -40,10 +40,12 @@ ul {
   margin: 0;
   padding: 0px;
 }
-li, h3 {
+li, 
+h3 {
   list-style: none;
 }
-input,button{
+input,
+button{
   outline: none;
 }
 button {
@@ -60,7 +62,7 @@ button:hover {
 }
 /* Heading */
 h3,
-label[for="new-task"] {
+.new-tasks{
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -86,7 +88,7 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-label[for="new-task"] {
+.new-tasks{
   display: block;
   margin: 0 0 20px;
 }
@@ -141,7 +143,7 @@ li >    input[type="text"] {
 }
 
 /* Edit Task */
-input[type=text] {
+ul li input[type=text] {
   display: none;
 }
 
